@@ -1,0 +1,1639 @@
+[
+    {
+        "id": "res_1",
+        "name": "OpenAI",
+        "url": "https://openai.com/",
+        "type": [
+            "res_type_2",
+            "res_type_10",
+            "res_type_13"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_5",
+            "AI_field_6",
+            "AI_field_4",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_2",
+        "name": "Two Minute Papers",
+        "url": "https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg",
+        "type": [
+            "res_type_5"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_4",
+            "AI_field_5",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_3",
+        "name": "DeepMind",
+        "url": "https://deepmind.com/",
+        "type": [
+            "res_type_2",
+            "res_type_13",
+            "res_type_10"
+        ],
+        "field": [
+            "AI_field_4",
+            "AI_field_10",
+            "AI_field_2",
+            "AI_field_12"
+        ]
+    },
+    {
+        "id": "res_4",
+        "name": "Machine Learning Mastery",
+        "url": "https://machinelearningmastery.com/",
+        "type": [
+            "res_type_1"
+        ],
+        "field": [
+            "AI_field_10",
+            "AI_field_1",
+            "AI_field_4",
+            "AI_field_2"
+        ]
+    },
+    {
+        "id": "res_5",
+        "name": "AI Alignment Podcast",
+        "url": "https://futureoflife.org/ai-alignment-podcast/",
+        "type": [
+            "res_type_4"
+        ],
+        "field": [
+            "AI_field_11",
+            "AI_field_14"
+        ]
+    },
+    {
+        "id": "res_6",
+        "name": "Yann LeCun",
+        "url": "https://cs.nyu.edu/~yann/",
+        "type": [
+          "res_type_3"
+        ],
+        "field": [
+          "AI_field_10",
+          "AI_field_2",
+          "AI_field_11"
+        ]
+    },
+    {
+        "id": "res_7",
+        "name": "Lex Fridman Podcast",
+        "url": "https://lexfridman.com/podcast/",
+        "type": [
+            "res_type_4"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_3",
+            "AI_field_4",
+            "AI_field_10",
+            "AI_field_11"
+        ]
+    },
+    {
+        "id": "res_8",
+        "name": "Andrew Ng",
+        "url": "https://www.deeplearning.ai/",
+        "type": [
+            "res_type_3",
+            "res_type_13"
+        ],
+        "field": [
+            "AI_field_10",
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_7"
+        ]
+    },
+    {
+        "id": "res_9",
+        "name": "Neural Information Processing Systems (NeurIPS)",
+        "url": "https://nips.cc/",
+        "type": [
+            "res_type_9"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_4",
+            "AI_field_5",
+            "AI_field_10",
+            "AI_field_11"
+        ]
+    },
+    {
+        "id": "res_10",
+        "name": "Fast.ai",
+        "url": "https://www.fast.ai/",
+        "type": [
+            "res_type_13"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_11",
+        "name": "AI Now Institute",
+        "url": "https://ainowinstitute.org/",
+        "type": [
+            "res_type_12"
+        ],
+        "field": [
+            "AI_field_11",
+            "AI_field_12",
+            "AI_field_13"
+        ]
+    },
+    {
+        "id": "res_12",
+        "name": "Geoffrey Hinton",
+        "url": "https://www.cs.toronto.edu/~hinton/",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_3",
+            "AI_field_4"
+        ]
+    },
+    {
+        "id": "res_13",
+        "name": "Pattern Recognition and Machine Learning",
+        "url": "https://www.springer.com/gp/book/9780387310732",
+        "type": [
+            "res_type_8"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_14",
+        "name": "Introduction to Artificial Intelligence by Sebastian Thrun and Peter Norvig",
+        "url": "https://www.udacity.com/course/intro-to-artificial-intelligence--cs271",
+        "type": [
+            "res_type_7"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_3",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_15",
+        "name": "Sentdex YouTube Channel",
+        "url": "https://www.youtube.com/user/sentdex",
+        "type": [
+            "res_type_5"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_16",
+        "name": "Google AI Blog",
+        "url": "https://ai.googleblog.com/",
+        "type": [
+            "res_type_1"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_4",
+            "AI_field_7",
+            "AI_field_10",
+            "AI_field_11"
+        ]
+    },
+    {
+        "id": "res_17",
+        "name": "Journal of Artificial Intelligence Research (JAIR)",
+        "url": "https://www.jair.org/",
+        "type": [
+            "res_type_6"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_3",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_18",
+        "name": "ICML (International Conference on Machine Learning)",
+        "url": "https://icml.cc/",
+        "type": [
+            "res_type_9"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_4",
+            "AI_field_5",
+            "AI_field_10",
+            "AI_field_11"
+        ]
+    },
+    {
+        "id": "res_19",
+        "name": "Association for Computational Linguistics (ACL)",
+        "url": "https://www.aclweb.org/",
+        "type": [
+            "res_type_9"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_11"
+        ]
+    },
+    {
+        "id": "res_20",
+        "name": "IBM Research AI Blog",
+        "url": "https://www.ibm.com/blogs/research/category/artificial-intelligence/",
+        "type": [
+            "res_type_1"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_4",
+            "AI_field_10",
+            "AI_field_11"
+        ]
+    },
+    {
+        "id": "res_21",
+        "name": "Stanford HAI (Human-centered AI)",
+        "url": "https://hai.stanford.edu/",
+        "type": [
+            "res_type_12"
+        ],
+        "field": [
+            "AI_field_11",
+            "AI_field_12",
+            "AI_field_14"
+        ]
+    },
+    {
+        "id": "res_22",
+        "name": "AI in Healthcare Podcast",
+        "url": "https://aiin.healthcare/",
+        "type": [
+            "res_type_4"
+        ],
+        "field": [
+            "AI_field_12"
+        ]
+    },
+    {
+        "id": "res_23",
+        "name": "MIT Technology Review AI section",
+        "url": "https://www.technologyreview.com/artificial-intelligence/",
+        "type": [
+            "res_type_1"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_3",
+            "AI_field_10",
+            "AI_field_11"
+        ]
+    },
+    {
+        "id": "res_24",
+        "name": "AI in Finance Podcast",
+        "url": "https://aifinance.podbean.com/",
+        "type": [
+            "res_type_4"
+        ],
+        "field": [
+            "AI_field_13"
+        ]
+    },
+    {
+        "id": "res_25",
+        "name": "AI for Good Foundation",
+        "url": "https://ai4good.org/",
+        "type": [
+            "res_type_12"
+        ],
+        "field": [
+            "AI_field_11",
+            "AI_field_14",
+            "AI_field_15"
+        ]
+    },
+    {
+        "id": "res_26",
+        "name": "Berkeley Artificial Intelligence Research (BAIR)",
+        "url": "https://bair.berkeley.edu/",
+        "type": [
+            "res_type_12"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_3",
+            "AI_field_4",
+            "AI_field_10",
+            "AI_field_11"
+        ]
+    },
+    {
+        "id": "res_27",
+        "name": "Data Science Central",
+        "url": "https://www.datasciencecentral.com/",
+        "type": [
+            "res_type_1"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_28",
+        "name": "Artificial Intelligence with Lex Fridman",
+        "url": "https://www.youtube.com/channel/UCSHZKyawb77ixDdsGog4iWA",
+        "type": [
+            "res_type_5"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_3",
+            "AI_field_4",
+            "AI_field_10",
+            "AI_field_11"
+        ]
+    },
+    {
+        "id": "res_29",
+        "name": "Arxiv Sanity Preserver",
+        "url": "http://www.arxiv-sanity.com/",
+        "type": [
+            "res_type_1"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_3",
+            "AI_field_4",
+            "AI_field_5",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_30",
+        "name": "Montreal.AI",
+        "url": "https://montrealartificialintelligence.com/",
+        "type": [
+            "res_type_2"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_31",
+        "name": "AI Frontiers Conference",
+        "url": "https://www.aifrontiers.com/",
+        "type": [
+            "res_type_9"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_3",
+            "AI_field_4",
+            "AI_field_10",
+            "AI_field_11"
+        ]
+    },
+    {
+        "id": "res_32",
+        "name": "Computerphile",
+        "url": "https://www.youtube.com/user/Computerphile",
+        "type": [
+            "res_type_5"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_33",
+        "name": "AI Superpowers by Kai-Fu Lee",
+        "url": "https://www.goodreads.com/book/show/38242135-ai-superpowers",
+        "type": [
+            "res_type_8"
+        ],
+        "field": [
+            "AI_field_11",
+            "AI_field_14",
+            "AI_field_15"
+        ]
+    },
+    {
+        "id": "res_34",
+        "name": "Partnership on AI",
+        "url": "https://www.partnershiponai.org/",
+        "type": [
+            "res_type_12"
+        ],
+        "field": [
+            "AI_field_11",
+            "AI_field_12",
+            "AI_field_14"
+        ]
+    },
+    {
+        "id": "res_35",
+        "name": "AI for Everyone",
+        "url": "https://www.coursera.org/learn/ai-for-everyone",
+        "type": [
+            "res_type_7"
+        ],
+        "field": [
+            "AI_field_11",
+            "AI_field_14",
+            "AI_field_15"
+        ]
+    },
+    {
+        "id": "res_36",
+        "name": "AI Ethics Toolkit",
+        "url": "https://aiethicskit.org/",
+        "type": [
+            "res_type_11"
+        ],
+        "field": [
+            "AI_field_11",
+            "AI_field_12",
+            "AI_field_14"
+        ]
+    },
+    {
+        "id": "res_37",
+        "name": "AI Alignment Newsletter",
+        "url": "https://rohinshah.com/ai-alignment-newsletter/",
+        "type": [
+            "res_type_1"
+        ],
+        "field": [
+            "AI_field_11",
+            "AI_field_14"
+        ]
+    },
+    {
+        "id": "res_38",
+        "name": "GPT-3 Creative Writing",
+        "url": "https://github.com/openai/gpt-3",
+        "type": [
+            "res_type_10"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_3",
+            "AI_field_4"
+        ]
+    },
+    {
+        "id": "res_39",
+        "name": "DataRobot Blog",
+        "url": "https://www.datarobot.com/blog/",
+        "type": [
+            "res_type_1"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_10",
+            "AI_field_2"
+        ]
+    },
+    {
+        "id": "res_40",
+        "name": "Association for Uncertainty in Artificial Intelligence (AUAI)",
+        "url": "http://auai.org/",
+        "type": [
+            "res_type_9"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_3",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_41",
+        "name": "OpenAI Blog",
+        "url": "https://openai.com/blog/",
+        "type": [
+            "res_type_1"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_3",
+            "AI_field_4",
+            "AI_field_10",
+            "AI_field_11"
+        ]
+    },
+    {
+        "id": "res_42",
+        "name": "AI Dungeon",
+        "url": "https://play.aidungeon.io/",
+        "type": [
+            "res_type_10"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_3",
+            "AI_field_4"
+        ]
+    },
+    {
+        "id": "res_43",
+        "name": "Association for Computational Creativity (ACC)",
+        "url": "http://computationalcreativity.net/",
+        "type": [
+            "res_type_9"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_3",
+            "AI_field_4"
+        ]
+    },
+    {
+        "id": "res_44",
+        "name": "AI Debater",
+        "url": "https://www.research.ibm.com/artificial-intelligence/project-debater/",
+        "type": [
+            "res_type_10"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_11"
+        ]
+    },
+    {
+        "id": "res_45",
+        "name": "AI & Law",
+        "url": "https://www.law.georgetown.edu/ai-law/",
+        "type": [
+            "res_type_12"
+        ],
+        "field": [
+            "AI_field_11",
+            "AI_field_12"
+        ]
+    },
+    {
+        "id": "res_46",
+        "name": "ImageNet",
+        "url": "http://www.image-net.org/",
+        "type": [
+            "res_type_10"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_47",
+        "name": "Robotics and Perception Group",
+        "url": "https://rpg.ifi.uzh.ch/",
+        "type": [
+            "res_type_12"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_7",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_48",
+        "name": "AI for Social Impact",
+        "url": "https://www.ai4si.org/",
+        "type": [
+            "res_type_12"
+        ],
+        "field": [
+            "AI_field_11",
+            "AI_field_14",
+            "AI_field_15"
+        ]
+    },
+    {
+        "id": "res_49",
+        "name": "CogX Conference",
+        "url": "https://cogx.live/",
+        "type": [
+            "res_type_9"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_3",
+            "AI_field_4",
+            "AI_field_10",
+            "AI_field_11"
+        ]
+    },
+    {
+        "id": "res_50",
+        "name": "Deep Reinforcement Learning",
+        "url": "https://www.youtube.com/watch?v=2pWv7GOvuf0",
+        "type": [
+            "res_type_5"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_4"
+        ]
+    },
+    {
+        "id": "res_51",
+        "name": "AI Safety Gridworlds",
+        "url": "https://github.com/deepmind/ai-safety-gridworlds",
+        "type": [
+            "res_type_10"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_11",
+            "AI_field_14"
+        ]
+    },
+    {
+        "id": "res_52",
+        "name": "The Center for Human-Compatible AI",
+        "url": "https://humancompatible.ai/",
+        "type": [
+            "res_type_12"
+        ],
+        "field": [
+            "AI_field_11",
+            "AI_field_14"
+        ]
+    },
+    {
+        "id": "res_53",
+        "name": "AlphaGo - The Movie",
+        "url": "https://www.alphagomovie.com/",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_4",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_54",
+        "name": "Deep Learning for Coders with fastai and PyTorch",
+        "url": "https://www.amazon.com/Deep-Learning-Coders-fastai-PyTorch/dp/1492045527",
+        "type": [
+            "res_type_8"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_55",
+        "name": "The AI Alignment Podcast",
+        "url": "https://futureoflife.org/ai-alignment-podcast/",
+        "type": [
+            "res_type_4"
+        ],
+        "field": [
+            "AI_field_11",
+            "AI_field_14"
+        ]
+    },
+    {
+        "id": "res_56",
+        "name": "ML@B (Machine Learning at Berkeley)",
+        "url": "https://ml.berkeley.edu/",
+        "type": [
+            "res_type_12"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_57",
+        "name": "The Age of AI - YouTube Series",
+        "url": "https://www.youtube.com/playlist?list=PLjq6DwYksrzz_fsWIpPcf6V7p2RNAneKc",
+        "type": [
+            "res_type_5"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10",
+            "AI_field_11",
+            "AI_field_12"
+        ]
+    },
+    {
+        "id": "res_58",
+        "name": "AI Now Institute",
+        "url": "https://ainowinstitute.org/",
+        "type": [
+            "res_type_12"
+        ],
+        "field": [
+            "AI_field_11",
+            "AI_field_14",
+            "AI_field_15"
+        ]
+    },
+    {
+        "id": "res_59",
+        "name": "DataTau",
+        "url": "https://datatau.net/",
+        "type": [
+            "res_type_1"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_60",
+        "name": "The Malicious Use of Artificial Intelligence",
+        "url": "https://www.maliciousaireport.com/",
+        "type": [
+            "res_type_1"
+        ],
+        "field": [
+            "AI_field_11",
+            "AI_field_14",
+            "AI_field_15"
+        ]
+    },
+    {
+        "id": "res_61",
+        "name": "The AI in Business Podcast",
+        "url": "https://emerj.com/ai-in-business-podcast/",
+        "type": [
+            "res_type_4"
+        ],
+        "field": [
+            "AI_field_10",
+            "AI_field_13"
+        ]
+    },
+    {
+        "id": "res_62",
+        "name": "The AI Ethics Brief",
+        "url": "https://aiethics.substack.com/",
+        "type": [
+            "res_type_1"
+        ],
+        "field": [
+            "AI_field_11",
+            "AI_field_14"
+        ]
+    },
+    {
+        "id": "res_63",
+        "name": "The AI Does Not Hate You by Tom Chivers",
+        "url": "https://www.goodreads.com/book/show/43192783-the-ai-does-not-hate-you",
+        "type": [
+            "res_type_8"
+        ],
+        "field": [
+            "AI_field_11",
+            "AI_field_14",
+            "AI_field_15"
+        ]
+    },
+    {
+        "id": "res_64",
+        "name": "The Gradient",
+        "url": "https://thegradient.pub/",
+        "type": [
+            "res_type_1"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_65",
+        "name": "AI for Business Summit",
+        "url": "https://www.aibusinesssummit.com/",
+        "type": [
+            "res_type_9"
+        ],
+        "field": [
+            "AI_field_10",
+            "AI_field_13"
+        ]
+    },
+    {
+        "id": "res_66",
+        "name": "The AI Alignment Podcast",
+        "url": "https://futureoflife.org/ai-alignment-podcast/",
+        "type": [
+            "res_type_4"
+        ],
+        "field": [
+            "AI_field_11",
+            "AI_field_14"
+        ]
+    },
+    {
+        "id": "res_dup_66",
+        "name": "Partnership on AI",
+        "url": "https://www.partnershiponai.org/",
+        "type": [
+            "res_type_12"
+        ],
+        "field": [
+            "AI_field_11",
+            "AI_field_14",
+            "AI_field_15"
+        ]
+    },
+    {
+        "id": "res_67",
+        "name": "AI World Conference & Expo",
+        "url": "https://aiworld.com/",
+        "type": [
+            "res_type_9"
+        ],
+        "field": [
+            "AI_field_10",
+            "AI_field_13"
+        ]
+    },
+    {
+        "id": "res_68",
+        "name": "Neural Information Processing Systems (NeurIPS)",
+        "url": "https://neurips.cc/",
+        "type": [
+            "res_type_9"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_69",
+        "name": "GANPaint Studio",
+        "url": "http://ganpaint.io/",
+        "type": [
+            "res_type_10"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_3",
+            "AI_field_4"
+        ]
+    },
+    {
+        "id": "res_70",
+        "name": "AI for Good Global Summit",
+        "url": "https://aiforgood.itu.int/",
+        "type": [
+            "res_type_9"
+        ],
+        "field": [
+            "AI_field_11",
+            "AI_field_14",
+            "AI_field_15"
+        ]
+    },
+    {
+        "id": "res_71",
+        "name": "OpenMined",
+        "url": "https://www.openmined.org/",
+        "type": [
+            "res_type_12"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_11",
+            "AI_field_14"
+        ]
+    },
+    {
+        "id": "res_72",
+        "name": "AI for Healthcare",
+        "url": "https://stanfordmlgroup.github.io/programs/aihc-bootcamp/",
+        "type": [
+            "res_type_12"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10",
+            "AI_field_16"
+        ]
+    },
+    {
+        "id": "res_73",
+        "name": "The International Conference on Learning Representations (ICLR)",
+        "url": "https://iclr.cc/",
+        "type": [
+            "res_type_9"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_74",
+        "name": "AI for Earth",
+        "url": "https://www.microsoft.com/en-us/ai/ai-for-earth",
+        "type": [
+            "res_type_12"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10",
+            "AI_field_17"
+        ]
+    },
+    {
+        "id": "res_76",
+        "name": "The Artificial Intelligence Channel",
+        "url": "https://www.youtube.com/channel/UC5yx5it5-3z9_PG5e9G1vLA",
+        "type": [
+            "res_type_5"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10",
+            "AI_field_11"
+        ]
+    },
+    {
+        "id": "res_77",
+        "name": "The AI Summit",
+        "url": "https://theaisummit.com/",
+        "type": [
+            "res_type_9"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10",
+            "AI_field_13"
+        ]
+    },
+    {
+        "id": "res_78",
+        "name": "Applied AI Summit",
+        "url": "https://www.re-work.co/events/applied-ai-summit",
+        "type": [
+            "res_type_9"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10",
+            "AI_field_13"
+        ]
+    },
+    {
+        "id": "res_79",
+        "name": "AI and Machine Learning Fundamentals",
+        "url": "https://www.coursera.org/specializations/ai-machine-learning",
+        "type": [
+            "res_type_7"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_80",
+        "name": "OpenAI Codex",
+        "url": "https://beta.openai.com/",
+        "type": [
+            "res_type_10"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_3",
+            "AI_field_4"
+        ]
+    },
+    {
+        "id": "res_81",
+        "name": "DataRobot",
+        "url": "https://www.datarobot.com/",
+        "type": [
+            "res_type_2"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_82",
+        "name": "O'Reilly Artificial Intelligence Conference",
+        "url": "https://conferences.oreilly.com/artificial-intelligence",
+        "type": [
+            "res_type_9"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10",
+            "AI_field_13"
+        ]
+    },
+    {
+        "id": "res_83",
+        "name": "Montreal AI Ethics Institute",
+        "url": "https://montrealethics.ai/",
+        "type": [
+            "res_type_12"
+        ],
+        "field": [
+            "AI_field_11",
+            "AI_field_14",
+            "AI_field_15"
+        ]
+    },
+    {
+        "id": "res_84",
+        "name": "Machine Learning Mastery",
+        "url": "https://machinelearningmastery.com/",
+        "type": [
+            "res_type_1"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_85",
+        "name": "Stanford HAI (Human-Centered AI)",
+        "url": "https://hai.stanford.edu/",
+        "type": [
+            "res_type_12"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_11",
+            "AI_field_14",
+            "AI_field_15"
+        ]
+    },
+    {
+        "id": "res_86",
+        "name": "Two Minute Papers",
+        "url": "https://www.youtube.com/user/keeroyz",
+        "type": [
+            "res_type_5"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_87",
+        "name": "Deep Learning Specialization by Andrew Ng",
+        "url": "https://www.coursera.org/specializations/deep-learning",
+        "type": [
+            "res_type_7"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_3",
+            "AI_field_4"
+        ]
+    },
+    {
+        "id": "res_88",
+        "name": "AI Dungeon",
+        "url": "https://www.aidungeon.io/",
+        "type": [
+            "res_type_10"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_3",
+            "AI_field_4",
+            "AI_field_5"
+        ]
+    },
+    {
+        "id": "res_89",
+        "name": "Introduction to AI by University of Helsinki",
+        "url": "https://www.elementsofai.com/",
+        "type": [
+            "res_type_7"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_90",
+        "name": "DeepMind",
+        "url": "https://deepmind.com/",
+        "type": [
+            "res_type_2"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_3",
+            "AI_field_4"
+        ]
+    },
+    {
+        "id": "res_91",
+        "name": "Association for Computational Linguistics (ACL) Conference",
+        "url": "https://www.aclweb.org/portal/",
+        "type": [
+            "res_type_9"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_5"
+        ]
+    },
+    {
+        "id": "res_92",
+        "name": "MLconf",
+        "url": "https://mlconf.com/",
+        "type": [
+            "res_type_9"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10",
+            "AI_field_13"
+        ]
+    },
+    {
+        "id": "res_93",
+        "name": "AI Superpowers by Kai-Fu Lee",
+        "url": "https://www.goodreads.com/book/show/38242135-ai-superpowers",
+        "type": [
+            "res_type_8"
+        ],
+        "field": [
+            "AI_field_10",
+            "AI_field_13"
+        ]
+    },
+    {
+        "id": "res_94",
+        "name": "Robohub",
+        "url": "https://robohub.org/",
+        "type": [
+            "res_type_1"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_95",
+        "name": "fast.ai",
+        "url": "https://www.fast.ai/",
+        "type": [
+            "res_type_7"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_3",
+            "AI_field_4"
+        ]
+    },
+    {
+        "id": "res_96",
+        "name": "Lifelong Kindergarten",
+        "url": "https://llk.media.mit.edu/",
+        "type": [
+            "res_type_12"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_10",
+            "AI_field_13"
+        ]
+    },
+    {
+        "id": "res_97",
+        "name": "The AAAI Conference on Artificial Intelligence",
+        "url": "https://aaai.org/Conferences/AAAI-22/",
+        "type": [
+            "res_type_9"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10",
+            "AI_field_13"
+        ]
+    },
+    {
+        "id": "res_98",
+        "name": "AI in Medicine",
+        "url": "https://www.springer.com/journal/698",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10",
+            "AI_field_16"
+        ]
+    },
+    {
+        "id": "res_99",
+        "name": "Reinforcement Learning Specialization",
+        "url": "https://www.coursera.org/specializations/reinforcement-learning",
+        "type": [
+            "res_type_7"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_6"
+        ]
+    },
+    {
+        "id": "res_100",
+        "name": "AI Alignment Podcast",
+        "url": "https://futureoflife.org/ai-alignment-podcast/",
+        "type": [
+            "res_type_4"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_11",
+            "AI_field_14",
+            "AI_field_15"
+        ]
+    },
+    {
+        "id": "res_101",
+        "name": "AI for Earth System Science",
+        "url": "https://www.aiforearthsystem.org/",
+        "type": [
+            "res_type_12"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10",
+            "AI_field_17"
+        ]
+    },
+    {
+        "id": "res_102",
+        "name": "Center for Data Innovation",
+        "url": "https://datainnovation.org/",
+        "type": [
+            "res_type_11"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10",
+            "AI_field_13"
+        ]
+    },
+    {
+        "id": "res_103",
+        "name": "CVPR (Conference on Computer Vision and Pattern Recognition)",
+        "url": "http://cvpr2023.thecvf.com/",
+        "type": [
+            "res_type_9"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_7",
+            "AI_field_8"
+        ]
+    },
+    {
+        "id": "res_104",
+        "name": "AI Now Institute",
+        "url": "https://ainowinstitute.org/",
+        "type": [
+            "res_type_12"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_11",
+            "AI_field_14",
+            "AI_field_15"
+        ]
+    },
+    {
+        "id": "res_105",
+        "name": "AI for Good Global Summit",
+        "url": "https://aiforgood.itu.int/",
+        "type": [
+            "res_type_9"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10",
+            "AI_field_17"
+        ]
+    },
+    {
+        "id": "res_106",
+        "name": "Yoshua Bengio",
+        "url": "https://mila.quebec/en/person/bengio-yoshua/",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_3",
+            "AI_field_4"
+        ]
+    },
+    {
+        "id": "res_107",
+        "name": "Fei-Fei Li",
+        "url": "https://profiles.stanford.edu/fei-fei-li",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_7",
+            "AI_field_8"
+        ]
+    },
+    {
+        "id": "res_108",
+        "name": "AI for Healthcare Specialization",
+        "url": "https://www.coursera.org/specializations/ai-for-healthcare",
+        "type": [
+            "res_type_7"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10",
+            "AI_field_16"
+        ]
+    },
+    {
+        "id": "res_109",
+        "name": "Kaggle",
+        "url": "https://www.kaggle.com/",
+        "type": [
+            "res_type_13"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_3",
+            "AI_field_4",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_110",
+        "name": "AI Research",
+        "url": "https://ai.facebook.com/",
+        "type": [
+            "res_type_2"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_3",
+            "AI_field_4",
+            "AI_field_5"
+        ]
+    },
+    {
+        "id": "res_111",
+        "name": "Google AI",
+        "url": "https://ai.google/",
+        "type": [
+            "res_type_2"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_3",
+            "AI_field_4",
+            "AI_field_5"
+        ]
+    },
+    {
+        "id": "res_112",
+        "name": "Microsoft Research AI",
+        "url": "https://www.microsoft.com/en-us/research/research-area/artificial-intelligence/",
+        "type": [
+            "res_type_2"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_3",
+            "AI_field_4",
+            "AI_field_5"
+        ]
+    },
+    {
+        "id": "res_113",
+        "name": "AI Index",
+        "url": "http://aiindex.org/",
+        "type": [
+            "res_type_11"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10",
+            "AI_field_13"
+        ]
+    },
+    {
+        "id": "res_114",
+        "name": "Artificial Intelligence and the Future of Power",
+        "url": "https://www.goodreads.com/book/show/56935026-artificial-intelligence-and-the-future-of-power",
+        "type": [
+            "res_type_8"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_11",
+            "AI_field_14",
+            "AI_field_15"
+        ]
+    },
+    {
+        "id": "res_115",
+        "name": "DataRobot",
+        "url": "https://www.datarobot.com/",
+        "type": [
+            "res_type_2"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_3",
+            "AI_field_4"
+        ]
+    },
+    {
+        "id": "res_116",
+        "name": "H2O.ai",
+        "url": "https://www.h2o.ai/",
+        "type": [
+            "res_type_2"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_3",
+            "AI_field_4"
+        ]
+    },
+    {
+        "id": "res_117",
+        "name": "AI Ethics Guidelines Global Inventory",
+        "url": "https://inventory.algorithmwatch.org/",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_11",
+            "AI_field_14",
+            "AI_field_15"
+        ]
+    },
+    {
+        "id": "res_118",
+        "name": "BigGAN",
+        "url": "https://arxiv.org/abs/1809.11096",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_5",
+            "AI_field_9"
+        ]
+    },
+    {
+        "id": "res_new_1",
+        "name": "Eliezer Yudkowsky",
+        "url": "https://www.yudkowsky.net/",
+        "type": [
+          "res_type_3",
+          "res_type_11"
+        ],
+        "field": [
+          "AI_field_1",
+          "AI_field_11"
+        ]
+      },
+      {
+        "id": "res_new_2",
+        "name": "LessWrong",
+        "url": "https://www.lesswrong.com/",
+        "type": [
+          "res_type_1"
+        ],
+        "field": [
+          "AI_field_1",
+          "AI_field_11"
+        ]
+      }
+]
