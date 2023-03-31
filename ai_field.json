@@ -1,0 +1,62 @@
+[
+  {
+    "id": "AI_field_1",
+    "name": "Natural Language Processing (NLP)"
+  },
+  {
+    "id": "AI_field_2",
+    "name": "Computer Vision"
+  },
+  {
+    "id": "AI_field_3",
+    "name": "Robotics"
+  },
+  {
+    "id": "AI_field_4",
+    "name": "Reinforcement Learning"
+  },
+  {
+    "id": "AI_field_5",
+    "name": "Generative Adversarial Networks (GANs)"
+  },
+  {
+    "id": "AI_field_6",
+    "name": "Large Language Models (LLMs)"
+  },
+  {
+    "id": "AI_field_7",
+    "name": "Speech Recognition"
+  },
+  {
+    "id": "AI_field_8",
+    "name": "Text-to-Speech (TTS)"
+  },
+  {
+    "id": "AI_field_9",
+    "name": "Recommender Systems"
+  },
+  {
+    "id": "AI_field_10",
+    "name": "Neural Networks and Deep Learning"
+  },
+  {
+    "id": "AI_field_11",
+    "name": "AI Ethics and Fairness"
+  },
+  {
+    "id": "AI_field_12",
+    "name": "AI and Healthcare"
+  },
+  {
+    "id": "AI_field_13",
+    "name": "AI and Finance"
+  },
+  {
+    "id": "AI_field_14",
+    "name": "AI and Education"
+  },
+  {
+    "id": "AI_field_15",
+    "name": "AI in Gaming"
+  }
+]

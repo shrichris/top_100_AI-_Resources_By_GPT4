@@ -1,0 +1,55 @@
+[
+    {
+      "id": "res_type_1",
+      "name": "Blogs"
+    },
+    {
+      "id": "res_type_2",
+      "name": "AI companies"
+    },
+    {
+      "id": "res_type_3",
+      "name": "AI researchers"
+    },
+    {
+      "id": "res_type_4",
+      "name": "Podcasts"
+    },
+    {
+      "id": "res_type_5",
+      "name": "YouTube channels"
+    },
+    {
+      "id": "res_type_6",
+      "name": "Academic journals"
+    },
+    {
+      "id": "res_type_7",
+      "name": "Online courses"
+    },
+    {
+      "id": "res_type_8",
+      "name": "Books"
+    },
+    {
+      "id": "res_type_9",
+      "name": "Conferences"
+    },
+    {
+      "id": "res_type_10",
+      "name": "Open source projects"
+    },
+    {
+      "id": "res_type_11",
+      "name": "Technology commentators"
+    },
+    {
+      "id": "res_type_12",
+      "name": "Think tanks"
+    },
+    {
+      "id": "res_type_13",
+      "name": "AI courses"
+    }
+  ]
+  

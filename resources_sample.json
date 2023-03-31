@@ -1,0 +1,29 @@
+[
+    {
+      "id": "res_1",
+      "name": "OpenAI",
+      "url": "https://openai.com/",
+      "type": ["res_type_2", "res_type_10", "res_type_13"],
+      "field": [
+        "AI_field_1",
+        "AI_field_5",
+        "AI_field_6",
+        "AI_field_4",
+        "AI_field_10"
+      ]
+    },
+    {
+      "id": "res_2",
+      "name": "Two Minute Papers",
+      "url": "https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg",
+      "type": ["res_type_5"],
+      "field": [
+        "AI_field_1",
+        "AI_field_2",
+        "AI_field_4",
+        "AI_field_5",
+        "AI_field_10"
+      ]
+    }
+  ]
+  
