@@ -11,16 +11,16 @@ async function fetchData(file) {
     console.error(`Error fetching ${file}:`, error);
   }
 }
-  
-  // Render filter options
-  async function renderFilterOptions() {
-    const resourceTypes = await fetchData("res_type.json");
-    const aiFields = await fetchData("ai_field.json");
-  
-    const resourceTypeSelect = document.getElementById("resource-type");
-    const aiFieldSelect = document.getElementById("ai-field");
 
-    // Add 'All' option to both filters
+// Render filter options
+async function renderFilterOptions() {
+  const resourceTypes = await fetchData("res_type.json");
+  const aiFields = await fetchData("ai_field.json");
+
+  const resourceTypeSelect = document.getElementById("resource-type");
+  const aiFieldSelect = document.getElementById("ai-field");
+
+  // Add 'All' option to both filters
   resourceTypeSelect.innerHTML = '<option value="all">All</option>';
   aiFieldSelect.innerHTML = '<option value="all">All</option>';
 
@@ -52,9 +52,12 @@ async function renderResources() {
     const selectedResourceType = resourceTypeSelect.value;
     const selectedAiField = aiFieldSelect.value;
 
-    const filteredResources = resources.filter(resource => {
-      const typeMatches = selectedResourceType === "all" || resource.type.includes(selectedResourceType);
-      const fieldMatches = selectedAiField === "all" || resource.field.includes(selectedAiField);
+    const filteredResources = resources.filter((resource) => {
+      const typeMatches =
+        selectedResourceType === "all" ||
+        resource.type.includes(selectedResourceType);
+      const fieldMatches =
+        selectedAiField === "all" || resource.field.includes(selectedAiField);
       return typeMatches && fieldMatches;
     });
 
@@ -79,21 +82,46 @@ async function renderResources() {
       const resourceTypes = await fetchData("res_type.json");
       const aiFields = await fetchData("ai_field.json");
 
-      const types = resource.type.map(typeId => resourceTypes.find(rt => rt.id === typeId).name).join(", ");
-      const fields = resource.field.map(fieldId => aiFields.find(af => af.id === fieldId).name).join(", ");
+      const types = resource.type
+        .map((typeId) => resourceTypes.find((rt) => rt.id === typeId).name)
+        .join(", ");
+      const fields = resource.field
+        .map((fieldId) => aiFields.find((af) => af.id === fieldId).name)
+        .join(", ");
+      
+       
 
       const typeInfo = document.createElement("p");
-      typeInfo.textContent = `Resource Type: ${types}`;
       typeInfo.classList.add("resource-info");
 
+      const typeLabel = document.createElement("span");
+      typeLabel.textContent = "Resource Type:";
+      typeLabel.classList.add("label");
+
+      const typeEntries = document.createElement("span");
+      typeEntries.textContent = ` ${types}`;
+      typeEntries.classList.add("entries");
+
       const fieldInfo = document.createElement("p");
-      fieldInfo.textContent = `AI Fields: ${fields}`;
       fieldInfo.classList.add("resource-info");
+
+      const fieldLabel = document.createElement("span");
+      fieldLabel.textContent = "AI Fields:";
+      fieldLabel.classList.add("label");
+
+      const fieldEntries = document.createElement("span");
+      fieldEntries.textContent = ` ${fields}`;
+      fieldEntries.classList.add("entries");
+
+      typeInfo.appendChild(typeLabel);
+      typeInfo.appendChild(typeEntries);
+      fieldInfo.appendChild(fieldLabel);
+      fieldInfo.appendChild(fieldEntries);
 
       resultDiv.appendChild(title);
       resultDiv.appendChild(link);
-      resultDiv.appendChild(typeInfo); // Add this line
-      resultDiv.appendChild(fieldInfo); // Add this line
+      resultDiv.appendChild(typeInfo);
+      resultDiv.appendChild(fieldInfo);
       resultsDiv.appendChild(resultDiv);
     }
   }

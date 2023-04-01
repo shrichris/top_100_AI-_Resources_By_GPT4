@@ -78,12 +78,12 @@
         "name": "Yann LeCun",
         "url": "https://cs.nyu.edu/~yann/",
         "type": [
-          "res_type_3"
+            "res_type_3"
         ],
         "field": [
-          "AI_field_10",
-          "AI_field_2",
-          "AI_field_11"
+            "AI_field_10",
+            "AI_field_2",
+            "AI_field_11"
         ]
     },
     {
@@ -982,8 +982,7 @@
         "field": [
             "AI_field_1",
             "AI_field_2",
-            "AI_field_10",
-            "AI_field_16"
+            "AI_field_10"
         ]
     },
     {
@@ -1009,8 +1008,7 @@
         "field": [
             "AI_field_1",
             "AI_field_2",
-            "AI_field_10",
-            "AI_field_17"
+            "AI_field_10"
         ]
     },
     {
@@ -1320,8 +1318,7 @@
         "field": [
             "AI_field_1",
             "AI_field_2",
-            "AI_field_10",
-            "AI_field_16"
+            "AI_field_10"
         ]
     },
     {
@@ -1362,8 +1359,7 @@
         "field": [
             "AI_field_1",
             "AI_field_2",
-            "AI_field_10",
-            "AI_field_17"
+            "AI_field_10"
         ]
     },
     {
@@ -1419,8 +1415,7 @@
         "field": [
             "AI_field_1",
             "AI_field_2",
-            "AI_field_10",
-            "AI_field_17"
+            "AI_field_10"
         ]
     },
     {
@@ -1461,8 +1456,7 @@
         "field": [
             "AI_field_1",
             "AI_field_2",
-            "AI_field_10",
-            "AI_field_16"
+            "AI_field_10"
         ]
     },
     {
@@ -1616,24 +1610,424 @@
         "name": "Eliezer Yudkowsky",
         "url": "https://www.yudkowsky.net/",
         "type": [
-          "res_type_3",
-          "res_type_11"
+            "res_type_3",
+            "res_type_11"
         ],
         "field": [
-          "AI_field_1",
-          "AI_field_11"
+            "AI_field_1",
+            "AI_field_11"
         ]
-      },
-      {
+    },
+    {
         "id": "res_new_2",
         "name": "LessWrong",
         "url": "https://www.lesswrong.com/",
         "type": [
-          "res_type_1"
+            "res_type_1"
         ],
         "field": [
-          "AI_field_1",
-          "AI_field_11"
+            "AI_field_1",
+            "AI_field_11"
         ]
-      }
+    },
+    {
+        "id": "res_ai_researcher_1",
+        "name": "Andrej Karpathy",
+        "url": "http://karpathy.github.io/",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_ai_researcher_2",
+        "name": "Andrew Ng",
+        "url": "http://www.andrewng.org/",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_3",
+            "AI_field_4",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_ai_researcher_3",
+        "name": "Demis Hassabis",
+        "url": "https://en.wikipedia.org/wiki/Demis_Hassabis",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_3",
+            "AI_field_4",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_ai_researcher_4",
+        "name": "Ian Goodfellow",
+        "url": "https://iandgoodfellow.com/",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_5",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_ai_researcher_5",
+        "name": "Daphne Koller",
+        "url": "http://ai.stanford.edu/~koller/",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_4",
+            "AI_field_10",
+            "AI_field_14"
+        ]
+    },
+    {
+        "id": "res_ai_researcher_6",
+        "name": "Ray Kurzweil",
+        "url": "http://www.kurzweilai.net/",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_3",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_ai_researcher_7",
+        "name": "Yann LeCun",
+        "url": "http://yann.lecun.com/",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_ai_researcher_8",
+        "name": "Hugo Larochelle",
+        "url": "https://twitter.com/hugo_larochelle",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_ai_researcher_9",
+        "name": "Juergen Schmidhuber",
+        "url": "http://people.idsia.ch/~juergen/",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_ai_researcher_10",
+        "name": "Nando de Freitas",
+        "url": "https://www.cs.ox.ac.uk/people/nando.defreitas/",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_4",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_ai_researcher_11",
+        "name": "Richard Sutton",
+        "url": "http://incompleteideas.net/",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_4",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_ai_researcher_12",
+        "name": "Ilya Sutskever",
+        "url": "https://www.cs.toronto.edu/~ilya/",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_6",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_ai_researcher_13",
+        "name": "Alec Radford",
+        "url": "https://www.linkedin.com/in/alecradford/",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_6",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_ai_researcher_14",
+        "name": "Oriol Vinyals",
+        "url": "https://ai.google/research/people/OriolVinyals",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_3",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_ai_researcher_15",
+        "name": "Pieter Abbeel",
+        "url": "https://people.eecs.berkeley.edu/~pabbeel/",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_3",
+            "AI_field_4",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_ai_researcher_16",
+        "name": "Anca Dragan",
+        "url": "https://people.eecs.berkeley.edu/~anca/",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_3",
+            "AI_field_4",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_ai_researcher_17",
+        "name": "Stefano Ermon",
+        "url": "https://cs.stanford.edu/~ermon/",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_4",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_ai_researcher_18",
+        "name": "Chelsea Finn",
+        "url": "https://people.eecs.berkeley.edu/~cbfinn/",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_3",
+            "AI_field_4",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_ai_researcher_19",
+        "name": "Emily Bender",
+        "url": "https://faculty.washington.edu/ebender/",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_11"
+        ]
+    },
+    {
+        "id": "res_ai_researcher_20",
+        "name": "Timnit Gebru",
+        "url": "https://www.linkedin.com/in/timnit-gebru-106a3a11/",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_11"
+        ]
+    },
+    {
+        "id": "res_ai_researcher_21",
+        "name": "Cynthia Dwork",
+        "url": "https://www.seas.harvard.edu/directory/cynthia",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_11"
+        ]
+    },
+    {
+        "id": "res_ai_researcher_22",
+        "name": "Kate Crawford",
+        "url": "http://www.katecrawford.net/",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_11"
+        ]
+    },
+    {
+        "id": "res_ai_researcher_23",
+        "name": "Kai-Fu Lee",
+        "url": "http://www.kaifulee.com/",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_7",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_ai_researcher_24",
+        "name": "Turing Award winners",
+        "url": "https://amturing.acm.org/byyear.cfm",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_2",
+            "AI_field_3",
+            "AI_field_4",
+            "AI_field_5",
+            "AI_field_6",
+            "AI_field_7",
+            "AI_field_8",
+            "AI_field_9",
+            "AI_field_10",
+            "AI_field_11",
+            "AI_field_12",
+            "AI_field_13",
+            "AI_field_14",
+            "AI_field_15"
+        ]
+    },
+    {
+        "id": "res_ai_researcher_25",
+        "name": "Karen Simonyan",
+        "url": "https://scholar.google.com/citations?user=_eSdKoAAAAAJ",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_2",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_ai_researcher_26",
+        "name": "Edward Grefenstette",
+        "url": "https://egrefen.github.io/",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_4",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_ai_researcher_27",
+        "name": "Percy Liang",
+        "url": "https://cs.stanford.edu/~pliang/",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_ai_researcher_28",
+        "name": "Regina Barzilay",
+        "url": "https://people.csail.mit.edu/regina/",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_12",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_ai_researcher_29",
+        "name": "Tomas Mikolov",
+        "url": "https://research.fb.com/people/mikolov-tomas/",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_1",
+            "AI_field_6",
+            "AI_field_10"
+        ]
+    },
+    {
+        "id": "res_ai_researcher_30",
+        "name": "Sergey Levine",
+        "url": "https://people.eecs.berkeley.edu/~svlevine/",
+        "type": [
+            "res_type_3"
+        ],
+        "field": [
+            "AI_field_3",
+            "AI_field_4",
+            "AI_field_10"
+        ]
+    }
 ]
