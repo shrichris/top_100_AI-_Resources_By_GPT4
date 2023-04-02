@@ -1,7 +1,7 @@
 // Fetch JSON data
 async function fetchData(file) {
   try {
-    const response = await fetch(`./data/${file}`);
+    const response = await fetch(`../data/${file}`);
     if (!response.ok) {
       throw new Error(`HTTP error: ${response.status}`);
     }
