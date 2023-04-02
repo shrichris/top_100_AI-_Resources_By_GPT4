@@ -1,0 +1,1107 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Web App Development Assistance.</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-opaquegray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="b2159cdd-345f-4bd0-91ff-f4ee5c22da24" class="page sans"><header><div class="page-header-icon undefined"><img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg"/></div><h1 class="page-title">Web App Development Assistance.</h1><table class="properties"><tbody><tr class="property-row property-row-multi_select"><th><span class="icon property-icon"><svg viewBox="0 0 16 16" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesMultipleSelect"><path d="M1.91602 4.83789C2.44238 4.83789 2.87305 4.40723 2.87305 3.87402C2.87305 3.34766 2.44238 2.91699 1.91602 2.91699C1.38281 2.91699 0.952148 3.34766 0.952148 3.87402C0.952148 4.40723 1.38281 4.83789 1.91602 4.83789ZM5.1084 4.52344H14.3984C14.7607 4.52344 15.0479 4.23633 15.0479 3.87402C15.0479 3.51172 14.7607 3.22461 14.3984 3.22461H5.1084C4.74609 3.22461 4.45898 3.51172 4.45898 3.87402C4.45898 4.23633 4.74609 4.52344 5.1084 4.52344ZM1.91602 9.03516C2.44238 9.03516 2.87305 8.60449 2.87305 8.07129C2.87305 7.54492 2.44238 7.11426 1.91602 7.11426C1.38281 7.11426 0.952148 7.54492 0.952148 8.07129C0.952148 8.60449 1.38281 9.03516 1.91602 9.03516ZM5.1084 8.7207H14.3984C14.7607 8.7207 15.0479 8.43359 15.0479 8.07129C15.0479 7.70898 14.7607 7.42188 14.3984 7.42188H5.1084C4.74609 7.42188 4.45898 7.70898 4.45898 8.07129C4.45898 8.43359 4.74609 8.7207 5.1084 8.7207ZM1.91602 13.2324C2.44238 13.2324 2.87305 12.8018 2.87305 12.2686C2.87305 11.7422 2.44238 11.3115 1.91602 11.3115C1.38281 11.3115 0.952148 11.7422 0.952148 12.2686C0.952148 12.8018 1.38281 13.2324 1.91602 13.2324ZM5.1084 12.918H14.3984C14.7607 12.918 15.0479 12.6309 15.0479 12.2686C15.0479 11.9062 14.7607 11.6191 14.3984 11.6191H5.1084C4.74609 11.6191 4.45898 11.9062 4.45898 12.2686C4.45898 12.6309 4.74609 12.918 5.1084 12.918Z"></path></svg></span>tags</th><td></td></tr><tr class="property-row property-row-text"><th><span class="icon property-icon"><svg viewBox="0 0 16 16" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesText"><path d="M1.56738 3.25879H14.4258C14.7676 3.25879 15.0479 2.97852 15.0479 2.63672C15.0479 2.29492 14.7744 2.02148 14.4258 2.02148H1.56738C1.21875 2.02148 0.952148 2.29492 0.952148 2.63672C0.952148 2.97852 1.22559 3.25879 1.56738 3.25879ZM1.56738 6.84082H14.4258C14.7676 6.84082 15.0479 6.56055 15.0479 6.21875C15.0479 5.87695 14.7744 5.60352 14.4258 5.60352H1.56738C1.21875 5.60352 0.952148 5.87695 0.952148 6.21875C0.952148 6.56055 1.22559 6.84082 1.56738 6.84082ZM1.56738 10.4229H14.4258C14.7676 10.4229 15.0479 10.1426 15.0479 9.80078C15.0479 9.45898 14.7744 9.18555 14.4258 9.18555H1.56738C1.21875 9.18555 0.952148 9.45898 0.952148 9.80078C0.952148 10.1426 1.22559 10.4229 1.56738 10.4229ZM1.56738 14.0049H8.75879C9.10059 14.0049 9.38086 13.7246 9.38086 13.3828C9.38086 13.041 9.10742 12.7676 8.75879 12.7676H1.56738C1.21875 12.7676 0.952148 13.041 0.952148 13.3828C0.952148 13.7246 1.22559 14.0049 1.56738 14.0049Z"></path></svg></span>Text</th><td></td></tr><tr class="property-row property-row-url"><th><span class="icon property-icon"><svg viewBox="0 0 16 16" style="width:14px;height:14px;display:block;fill:rgba(55, 53, 47, 0.45);flex-shrink:0;-webkit-backface-visibility:hidden" class="typesUrl"><path d="M7.69922 10.8945L8.73828 9.84863C7.91797 9.77344 7.34375 9.51367 6.91992 9.08984C5.76465 7.93457 5.76465 6.29395 6.91309 5.14551L9.18262 2.87598C10.3379 1.7207 11.9717 1.7207 13.127 2.87598C14.2891 4.04492 14.2822 5.67188 13.1338 6.82031L11.958 7.99609C12.1768 8.49512 12.2451 9.10352 12.1289 9.62988L14.0908 7.6748C15.7725 6 15.7793 3.62109 14.084 1.92578C12.3887 0.223633 10.0098 0.237305 8.33496 1.91211L5.95605 4.29785C4.28125 5.97266 4.26758 8.35156 5.96289 10.0469C6.36621 10.4434 6.90625 10.7441 7.69922 10.8945ZM8.30078 5.13184L7.26855 6.17773C8.08203 6.25293 8.66309 6.51953 9.08008 6.93652C10.2422 8.09863 10.2422 9.73242 9.08691 10.8809L6.81738 13.1504C5.66211 14.3057 4.03516 14.3057 2.87305 13.1504C1.71094 11.9883 1.71777 10.3545 2.87305 9.20605L4.04199 8.03027C3.83008 7.53125 3.75488 6.92969 3.87109 6.39648L1.91602 8.35156C0.234375 10.0264 0.227539 12.4121 1.92285 14.1074C3.61816 15.8027 5.99707 15.7891 7.67188 14.1143L10.0439 11.7354C11.7256 10.0537 11.7324 7.6748 10.0371 5.98633C9.64062 5.58301 9.10059 5.28223 8.30078 5.13184Z"></path></svg></span>URL</th><td></td></tr></tbody></table></header><div class="page-body"><h3 id="98e1c0f3-6252-4085-87b0-3738285c5279" class=""><details open=""><summary>❓ Prompt</summary></details></h3><div class="indented"><p id="76b0c77b-65ad-42ca-a8c1-454853563863" class="">Please play the role of an experienced programmer. I would like to develop a web application using HTML, CSS, JavaScript, NodeJS. The front end must be flexible and cater to different screen screen sizes and have a modern look and feel.  The application will read read 3 json files titled resources.json, ai_field.json and res_type.json. I will provide you the complete ai_field.json file and res_type.json files. I will then provide you a sample of entries from the resources.json file. The application must provide an interactive visualisation that allows a user to filter on the different types of resources and the ai_fields, and show the applicable entries (url and name) on screen. I will now provide you the 3 files one after the other. Please wait for me to provide you the 3 files. Once I have provided the files, please provide step by step instructions to put together the application. Is that Ok?
+</p></div><h3 id="bf6905a7-1d0f-4259-aa23-7f6653fc59e7" class="">💬 Answer</h3><p id="76afb3cd-2348-454b-a558-591e33a14cbb" class=""><mark class="highlight-default">Yes, that&#x27;s perfectly fine! I&#x27;ll be glad to help you. Please go ahead and provide the 3 JSON files, and then I&#x27;ll guide you step by step on how to create the web application.</mark></p><h3 id="a8f89f62-36c1-411b-85de-d730459197a0" class=""><details open=""><summary>❓ Prompt</summary></details></h3><div class="indented"><p id="a8d27f35-b199-4e87-bd59-7ef97222483d" class="">[
+    {
+      &quot;id&quot;: &quot;res_type_1&quot;,
+      &quot;name&quot;: &quot;Blogs&quot;
+    },
+    {
+      &quot;id&quot;: &quot;res_type_2&quot;,
+      &quot;name&quot;: &quot;AI companies&quot;
+    },
+    {
+      &quot;id&quot;: &quot;res_type_3&quot;,
+      &quot;name&quot;: &quot;AI researchers&quot;
+    },
+    {
+      &quot;id&quot;: &quot;res_type_4&quot;,
+      &quot;name&quot;: &quot;Podcasts&quot;
+    },
+    {
+      &quot;id&quot;: &quot;res_type_5&quot;,
+      &quot;name&quot;: &quot;YouTube channels&quot;
+    },
+    {
+      &quot;id&quot;: &quot;res_type_6&quot;,
+      &quot;name&quot;: &quot;Academic journals&quot;
+    },
+    {
+      &quot;id&quot;: &quot;res_type_7&quot;,
+      &quot;name&quot;: &quot;Online courses&quot;
+    },
+    {
+      &quot;id&quot;: &quot;res_type_8&quot;,
+      &quot;name&quot;: &quot;Books&quot;
+    },
+    {
+      &quot;id&quot;: &quot;res_type_9&quot;,
+      &quot;name&quot;: &quot;Conferences&quot;
+    },
+    {
+      &quot;id&quot;: &quot;res_type_10&quot;,
+      &quot;name&quot;: &quot;Open source projects&quot;
+    },
+    {
+      &quot;id&quot;: &quot;res_type_11&quot;,
+      &quot;name&quot;: &quot;Technology commentators&quot;
+    },
+    {
+      &quot;id&quot;: &quot;res_type_12&quot;,
+      &quot;name&quot;: &quot;Think tanks&quot;
+    },
+    {
+      &quot;id&quot;: &quot;res_type_13&quot;,
+      &quot;name&quot;: &quot;AI courses&quot;
+    }
+  ]
+  </p></div><h3 id="6dcc5e0b-44c8-439d-87d8-ba0d9c03b790" class="">💬 Answer</h3><p id="41973b5d-bdbf-4d08-b591-bc7623698d3f" class=""><mark class="highlight-default">Thank you for providing the </mark><mark class="highlight-default"><code>res_type.json</code></mark><mark class="highlight-default"> file. Please go ahead and provide the </mark><mark class="highlight-default"><code>ai_field.json</code></mark><mark class="highlight-default"> and a sample of entries from the </mark><mark class="highlight-default"><code>resources.json</code></mark><mark class="highlight-default"> file.</mark></p><h3 id="9500d7d6-897b-452f-a93d-1e9871be8b77" class=""><details open=""><summary>❓ Prompt</summary></details></h3><div class="indented"><p id="87c15430-9ee6-4204-a3dc-89949be15dd4" class="">[
+  {
+    &quot;id&quot;: &quot;AI_field_1&quot;,
+    &quot;name&quot;: &quot;Natural Language Processing (NLP)&quot;
+  },
+  {
+    &quot;id&quot;: &quot;AI_field_2&quot;,
+    &quot;name&quot;: &quot;Computer Vision&quot;
+  },
+  {
+    &quot;id&quot;: &quot;AI_field_3&quot;,
+    &quot;name&quot;: &quot;Robotics&quot;
+  },
+  {
+    &quot;id&quot;: &quot;AI_field_4&quot;,
+    &quot;name&quot;: &quot;Reinforcement Learning&quot;
+  },
+  {
+    &quot;id&quot;: &quot;AI_field_5&quot;,
+    &quot;name&quot;: &quot;Generative Adversarial Networks (GANs)&quot;
+  },
+  {
+    &quot;id&quot;: &quot;AI_field_6&quot;,
+    &quot;name&quot;: &quot;Large Language Models (LLMs)&quot;
+  },
+  {
+    &quot;id&quot;: &quot;AI_field_7&quot;,
+    &quot;name&quot;: &quot;Speech Recognition&quot;
+  },
+  {
+    &quot;id&quot;: &quot;AI_field_8&quot;,
+    &quot;name&quot;: &quot;Text-to-Speech (TTS)&quot;
+  },
+  {
+    &quot;id&quot;: &quot;AI_field_9&quot;,
+    &quot;name&quot;: &quot;Recommender Systems&quot;
+  },
+  {
+    &quot;id&quot;: &quot;AI_field_10&quot;,
+    &quot;name&quot;: &quot;Neural Networks and Deep Learning&quot;
+  },
+  {
+    &quot;id&quot;: &quot;AI_field_11&quot;,
+    &quot;name&quot;: &quot;AI Ethics and Fairness&quot;
+  },
+  {
+    &quot;id&quot;: &quot;AI_field_12&quot;,
+    &quot;name&quot;: &quot;AI and Healthcare&quot;
+  },
+  {
+    &quot;id&quot;: &quot;AI_field_13&quot;,
+    &quot;name&quot;: &quot;AI and Finance&quot;
+  },
+  {
+    &quot;id&quot;: &quot;AI_field_14&quot;,
+    &quot;name&quot;: &quot;AI and Education&quot;
+  },
+  {
+    &quot;id&quot;: &quot;AI_field_15&quot;,
+    &quot;name&quot;: &quot;AI in Gaming&quot;
+  }
+]
+
+</p></div><h3 id="42ec7bdd-f2ee-4c85-99ed-263c8d73dd73" class="">💬 Answer</h3><p id="4e49c75b-8e10-40ca-9691-aecf7db0f357" class=""><mark class="highlight-default">Thank you for providing the </mark><mark class="highlight-default"><code>ai_field.json</code></mark><mark class="highlight-default"> file. Now, please provide a sample of entries from the </mark><mark class="highlight-default"><code>resources.json</code></mark><mark class="highlight-default"> file.</mark></p><h3 id="480af786-108b-422b-a2c6-bed7ca4f5c41" class=""><details open=""><summary>❓ Prompt</summary></details></h3><div class="indented"><p id="df70afef-9bd5-4ea1-bb04-2f9bd5542a8f" class="">[
+    {
+      &quot;id&quot;: &quot;res_1&quot;,
+      &quot;name&quot;: &quot;OpenAI&quot;,
+      &quot;url&quot;: &quot;https://openai.com/&quot;,
+      &quot;type&quot;: [&quot;res_type_2&quot;, &quot;res_type_10&quot;, &quot;res_type_13&quot;],
+      &quot;field&quot;: [
+        &quot;AI_field_1&quot;,
+        &quot;AI_field_5&quot;,
+        &quot;AI_field_6&quot;,
+        &quot;AI_field_4&quot;,
+        &quot;AI_field_10&quot;
+      ]
+    },
+    {
+      &quot;id&quot;: &quot;res_2&quot;,
+      &quot;name&quot;: &quot;Two Minute Papers&quot;,
+      &quot;url&quot;: &quot;https://www.youtube.com/channel/UCbfYPyITQ-7l4upoX8nvctg&quot;,
+      &quot;type&quot;: [&quot;res_type_5&quot;],
+      &quot;field&quot;: [
+        &quot;AI_field_1&quot;,
+        &quot;AI_field_2&quot;,
+        &quot;AI_field_4&quot;,
+        &quot;AI_field_5&quot;,
+        &quot;AI_field_10&quot;
+      ]
+    }
+  ]
+  </p></div><h3 id="96690c5a-f893-4067-875b-c76893980e37" class="">💬 Answer</h3><p id="9a4d84bd-1459-49d9-9c48-9555c6f30a2c" class=""><mark class="highlight-default">Thank you for providing the sample entries from the </mark><mark class="highlight-default"><code>resources.json</code></mark><mark class="highlight-default"> file. Now, let&#x27;s begin building the web application step by step.</mark></p><ol type="1" id="bc724cc1-8f50-4e0e-8514-e6c57a6de80d" class="numbered-list" start="1"><li><mark class="highlight-default">Create a new folder for your project, and inside that folder, create the following files and folders:</mark><ul id="098885cf-2a4c-42c9-9977-c5c2db6bc492" class="bulleted-list"><li style="list-style-type:disc"><mark class="highlight-default"><code>index.html</code></mark></li></ul><ul id="9ee063ee-ad8d-4029-b5ca-4b2934553009" class="bulleted-list"><li style="list-style-type:disc"><mark class="highlight-default"><code>style.css</code></mark></li></ul><ul id="794d403e-12e0-4080-a99c-99a80b08bdcc" class="bulleted-list"><li style="list-style-type:disc"><mark class="highlight-default"><code>script.js</code></mark></li></ul><ul id="4254d410-0aed-416d-92c4-c24fe1d51092" class="bulleted-list"><li style="list-style-type:disc"><mark class="highlight-default"><code>server.js</code></mark></li></ul><ul id="79ebf003-cb22-4880-9428-ac56a2d94693" class="bulleted-list"><li style="list-style-type:disc"><mark class="highlight-default"><code>data</code></mark><mark class="highlight-default"> folder</mark><mark class="highlight-default">* Inside the </mark><mark class="highlight-default"><code>data</code></mark><mark class="highlight-default"> folder, create and add your JSON files: </mark><mark class="highlight-default"><code>res_type.json</code></mark><mark class="highlight-default">, </mark><mark class="highlight-default"><code>ai_field.json</code></mark><mark class="highlight-default">, and </mark><mark class="highlight-default"><code>resources.json</code></mark></li></ul></li></ol><ol type="1" id="19525eec-7be4-4ad9-b1ae-9d43b67808a4" class="numbered-list" start="2"><li><mark class="highlight-default">In the </mark><mark class="highlight-default"><code>index.html</code></mark><mark class="highlight-default"> file, add the following basic HTML structure, linking the </mark><mark class="highlight-default"><code>style.css</code></mark><mark class="highlight-default"> and </mark><mark class="highlight-default"><code>script.js</code></mark><mark class="highlight-default"> files:</mark></li></ol><pre id="8c589ef2-a7da-4b51-9e89-7207b103cb56" class="code"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;UTF-8&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+  &lt;title&gt;AI Resources&lt;/title&gt;
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;!-- Your content goes here --&gt;
+
+  &lt;script src=&quot;script.js&quot;&gt;&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre><ol type="1" id="9cbfc061-3a91-463a-82ce-52c1cc0b4de4" class="numbered-list" start="1"><li><mark class="highlight-default">Add the necessary elements to the </mark><mark class="highlight-default"><code>index.html</code></mark><mark class="highlight-default"> file for displaying the resource filters and results:</mark></li></ol><pre id="f7187166-b3cf-4601-a20c-3081503ba7d2" class="code"><code>&lt;!-- Add this inside the body tag --&gt;
+&lt;div class=&quot;container&quot;&gt;
+  &lt;h1&gt;AI Resources&lt;/h1&gt;
+
+  &lt;div class=&quot;filters&quot;&gt;
+    &lt;div class=&quot;filter&quot;&gt;
+      &lt;label for=&quot;resource-type&quot;&gt;Resource Type:&lt;/label&gt;
+      &lt;select id=&quot;resource-type&quot;&gt;
+        &lt;!-- Options will be added dynamically --&gt;
+      &lt;/select&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;filter&quot;&gt;
+      &lt;label for=&quot;ai-field&quot;&gt;AI Field:&lt;/label&gt;
+      &lt;select id=&quot;ai-field&quot;&gt;
+        &lt;!-- Options will be added dynamically --&gt;
+      &lt;/select&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;results&quot;&gt;
+    &lt;!-- Results will be added dynamically --&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</code></pre><ol type="1" id="b14acd6c-78c8-4637-8cfa-176c4e929a8f" class="numbered-list" start="1"><li><mark class="highlight-default">In the </mark><mark class="highlight-default"><code>style.css</code></mark><mark class="highlight-default"> file, add some basic styling to make the application responsive and visually appealing:</mark></li></ol><pre id="d390d258-e44c-46c8-8887-6d7cfac6120e" class="code"><code>body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.filter {
+  width: 45%;
+}
+
+.results {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.result {
+  flex: 1 1 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.result a {
+  display: block;
+  text-decoration: none;
+  color: #000;
+}
+
+@media (max-width: 768px) {
+  .filters {
+    flex-direction: column;
+  }
+
+  .filter {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}</code></pre><ol type="1" id="a95b78cf-081e-4862-b765-97d07008297a" class="numbered-list" start="1"><li><mark class="highlight-default">In the </mark><mark class="highlight-default"><code>script.js</code></mark><mark class="highlight-default"> file, add the following JavaScript code to fetch the JSON files and render the options for the filters:</mark></li></ol><pre id="38b48ba7-a30b-42f1-b576-16bc5122d1f8" class="code"><code>` // Fetch JSON data
+async function fetchData(file) {
+  const response = await fetch(`./data/${file}`);
+  const data = await response.json();
+  return data;
+}
+
+// Render filter options
+async function renderFilterOptions() {
+  const resourceTypes = await fetchData(&quot;res_type.json&quot;);
+  const aiFields = await fetchData(&quot;ai_field.json&quot;);
+
+  const resourceTypeSelect = document.getElementById(&quot;resource-type&quot;);
+  const aiFieldSelect = document.getElementById(&quot;ai-field
+ ``</code></pre><h3 id="73e7e69c-8691-4eb8-a44c-cfc6b3c00852" class=""><details open=""><summary>❓ Prompt</summary></details></h3><div class="indented"><p id="84649072-b811-4589-805b-d40b7d9ecb52" class="">Please complete the javascript code
+</p></div><h3 id="aa987124-b20d-4c2b-9f2d-2ec117f8f192" class="">💬 Answer</h3><p id="a0685749-2d41-478a-95ac-287b2f812825" class=""><mark class="highlight-default">My apologies for the incomplete response. Here&#x27;s the continuation of the JavaScript code:</mark></p><pre id="3394d57c-d788-49c5-a36e-0b395cc419c7" class="code"><code>  // Add &#x27;All&#x27; option to both filters
+  resourceTypeSelect.innerHTML = &#x27;&lt;option value=&quot;all&quot;&gt;All&lt;/option&gt;&#x27;;
+  aiFieldSelect.innerHTML = &#x27;&lt;option value=&quot;all&quot;&gt;All&lt;/option&gt;&#x27;;
+
+  // Add options for resource types
+  for (const resourceType of resourceTypes) {
+    const option = document.createElement(&quot;option&quot;);
+    option.value = resourceType.id;
+    option.textContent = resourceType.name;
+    resourceTypeSelect.appendChild(option);
+  }
+
+  // Add options for AI fields
+  for (const aiField of aiFields) {
+    const option = document.createElement(&quot;option&quot;);
+    option.value = aiField.id;
+    option.textContent = aiField.name;
+    aiFieldSelect.appendChild(option);
+  }
+}
+
+// Render resources
+async function renderResources() {
+  const resources = await fetchData(&quot;resources.json&quot;);
+  const resourceTypeSelect = document.getElementById(&quot;resource-type&quot;);
+  const aiFieldSelect = document.getElementById(&quot;ai-field&quot;);
+  const resultsDiv = document.querySelector(&quot;.results&quot;);
+
+  function filterResources() {
+    const selectedResourceType = resourceTypeSelect.value;
+    const selectedAiField = aiFieldSelect.value;
+
+    const filteredResources = resources.filter(resource =&gt; {
+      const typeMatches = selectedResourceType === &quot;all&quot; || resource.type.includes(selectedResourceType);
+      const fieldMatches = selectedAiField === &quot;all&quot; || resource.field.includes(selectedAiField);
+      return typeMatches &amp;&amp; fieldMatches;
+    });
+
+    return filteredResources;
+  }
+
+  function displayResources() {
+    resultsDiv.innerHTML = &quot;&quot;;
+    const filteredResources = filterResources();
+
+    for (const resource of filteredResources) {
+      const resultDiv = document.createElement(&quot;div&quot;);
+      resultDiv.classList.add(&quot;result&quot;);
+
+      const title = document.createElement(&quot;h3&quot;);
+      title.textContent = resource.name;
+
+      const link = document.createElement(&quot;a&quot;);
+      link.href = resource.url;
+      link.textContent = resource.url;
+
+      resultDiv.appendChild(title);
+      resultDiv.appendChild(link);
+      resultsDiv.appendChild(resultDiv);
+    }
+  }
+
+  resourceTypeSelect.addEventListener(&quot;change&quot;, displayResources);
+  aiFieldSelect.addEventListener(&quot;change&quot;, displayResources);
+
+  displayResources();
+}
+
+renderFilterOptions();
+renderResources();</code></pre><ol type="1" id="1905ae37-026e-40e4-875f-5b70214d16f2" class="numbered-list" start="1"><li><mark class="highlight-default">Now, let&#x27;s create a simple Node.js server to serve your files. Add the following code in the </mark><mark class="highlight-default"><code>server.js</code></mark><mark class="highlight-default"> file:</mark></li></ol><pre id="7fb7a005-252c-459b-8614-82a77ecd005a" class="code"><code>` const express = require(&quot;express&quot;);
+const path = require(&quot;path&quot;);
+
+const app = express();
+
+app.use(express.static(path.join(__dirname)));
+
+app.get(&quot;/&quot;, (req, res) =&gt; {
+  res.sendFile(path.join(__dirname, &quot;index.html&quot;));
+});
+
+const port = process.env.PORT || 3000;
+app.listen(port, () =&gt; {
+  console.log(`Server listening on port ${port}`);
+});</code></pre><ol type="1" id="107a9b64-4d9b-443c-8844-d38675e0b698" class="numbered-list" start="1"><li><mark class="highlight-default">Install the required dependencies by running the following command in your terminal:</mark></li></ol><pre id="41ee60b7-f04f-4703-8df4-ea6663bc9b62" class="code"><code>npm init -y
+npm install express</code></pre><ol type="1" id="f94ff837-739a-4f14-80ca-b674edf808e3" class="numbered-list" start="1"><li><mark class="highlight-default">Add a </mark><mark class="highlight-default"><code>start</code></mark><mark class="highlight-default"> script in your </mark><mark class="highlight-default"><code>package.json</code></mark><mark class="highlight-default"> file:</mark></li></ol><pre id="d2c36652-d8d9-4a08-ac7e-788efcd9c897" class="code"><code>&quot;scripts&quot;: {
+  &quot;start&quot;: &quot;node server.js&quot;
+},</code></pre><ol type="1" id="48ef8493-4ac6-48c9-8f09-a7cba7310e71" class="numbered-list" start="1"><li><mark class="highlight-default">Finally, start your server by running the following command in your terminal:</mark></li></ol><pre id="ecd38248-cdde-483f-a5f4-ca643a844149" class="code"><code>npm start</code></pre><p id="e4b2e634-dee1-4124-b9aa-d1f80fec5f8c" class=""><mark class="highlight-default">Now, you can open your browser and navigate to </mark><mark class="highlight-default"><code>http://localhost:3000</code></mark><mark class="highlight-default"> to view your web application. The filters should work, allowing you to display resources based on the selected resource type and AI field.</mark></p><h3 id="749d7fba-428c-476a-a386-d14ee3925081" class=""><details open=""><summary>❓ Prompt</summary></details></h3><div class="indented"><p id="ab7eed99-1dcf-4b22-9e01-3295ca4175bb" class="">Is this line of code complete const aiFieldSelect = document.getElementById(&quot;ai-field
+</p></div><h3 id="a9550767-d4a2-4979-bbe5-a8ffde6bc03a" class="">💬 Answer</h3><p id="9ff4af61-c423-4714-996c-73e82233c461" class=""><mark class="highlight-default">Apologies for the formatting error in my previous response. Here&#x27;s the correct line of code:</mark></p><pre id="d064eba9-2b8c-4347-aec4-ba3ee80f85b4" class="code"><code>const aiFieldSelect = document.getElementById(&quot;ai-field&quot;);</code></pre><p id="b1e7a0a1-86b2-4d58-814d-9339ea34ff8b" class=""><mark class="highlight-default">Please make sure that this line appears correctly in your </mark><mark class="highlight-default"><code>script.js</code></mark><mark class="highlight-default"> file.</mark></p><h3 id="08307933-6ffb-4588-83be-b0864a485372" class=""><details open=""><summary>❓ Prompt</summary></details></h3><div class="indented"><p id="af80403f-2cb2-4ea9-9515-1a5dadb76975" class="">I can see a dropdown for resource type and another drop down for AI Field..I am not seeing any resource entries on screen
+</p></div><h3 id="6c17ae1d-5670-43e3-ac39-347cd69e4bb5" class="">💬 Answer</h3><p id="10eb05c1-f6e2-40d2-978b-011ef8308656" class=""><mark class="highlight-default">I apologize for any confusion. It seems that there might be an issue with the implementation. Let&#x27;s debug this together.</mark></p><p id="c31b349f-73ee-4b79-9fa3-83c3f65e6f83" class=""><mark class="highlight-default">Please update the </mark><mark class="highlight-default"><code>fetchData</code></mark><mark class="highlight-default"> function in your </mark><mark class="highlight-default"><code>script.js</code></mark><mark class="highlight-default"> file to catch any errors during the JSON fetching process:</mark></p><pre id="63842253-7791-46d7-ac4b-5c160bfa04dc" class="code"><code>` async function fetchData(file) {
+  try {
+    const response = await fetch(`./data/${file}`);
+    if (!response.ok) {
+      throw new Error(`HTTP error: ${response.status}`);
+    }
+    const data = await response.json();
+    return data;
+  } catch (error) {
+    console.error(`Error fetching ${file}:`, error);
+  }
+}</code></pre><p id="7afc4971-fee1-4f37-9c51-707ba2d4e4a6" class=""><mark class="highlight-default">Now, open your browser&#x27;s Developer Tools (usually accessible by pressing F12 or Ctrl+Shift+I) and check the Console tab for any error messages or logs.</mark></p><p id="5443dc8f-f413-4ad7-abe2-5c700d6d5550" class=""><mark class="highlight-default">If you still encounter issues, please copy the error messages or any relevant logs and share them here, so I can help you identify and fix the problem.</mark></p><h3 id="77de3e77-9eb6-4df0-9b96-5db62b6c2aa6" class=""><details open=""><summary>❓ Prompt</summary></details></h3><div class="indented"><p id="d21bb3fc-52c6-4aed-a397-13aa8d529e14" class="">Thank you. There was an error in the json file that was most likely introduced  when I was copied the content over. My apologies. I am now able to see the two filters and upon selecting items from the drop down list, I can see filtered entries below. I would like to change the UI a little. Could you please include the resource type and the AI fields assigned to  resource entry below the url. These should be in a smaller font compared to the name of the resource and its url. </p></div><h3 id="5d314398-37ae-424a-8d05-5752b064186a" class="">💬 Answer</h3><p id="c052f908-b5ad-41d3-8f74-69a25b30df3e" class=""><mark class="highlight-default">Sure, I can help you modify the UI. To display the resource type and AI fields assigned to each resource entry below the URL, follow these steps:</mark></p><ol type="1" id="5da0acd7-0c57-4524-b174-b180f34d3468" class="numbered-list" start="1"><li><mark class="highlight-default">Update the </mark><mark class="highlight-default"><code>displayResources</code></mark><mark class="highlight-default"> function in your </mark><mark class="highlight-default"><code>script.js</code></mark><mark class="highlight-default"> file to include the resource types and AI fields:</mark></li></ol><pre id="7e73cbcf-8e65-4728-9ad3-ffdc94a410c5" class="code"><code>` // Existing code inside the displayResources function
+const title = document.createElement(&quot;h3&quot;);
+title.textContent = resource.name;
+
+const link = document.createElement(&quot;a&quot;);
+link.href = resource.url;
+link.textContent = resource.url;
+
+// Add the following new code
+const resourceTypes = await fetchData(&quot;res_type.json&quot;);
+const aiFields = await fetchData(&quot;ai_field.json&quot;);
+
+const types = resource.type.map(typeId =&gt; resourceTypes.find(rt =&gt; rt.id === typeId).name).join(&quot;, &quot;);
+const fields = resource.field.map(fieldId =&gt; aiFields.find(af =&gt; af.id === fieldId).name).join(&quot;, &quot;);
+
+const typeInfo = document.createElement(&quot;p&quot;);
+typeInfo.textContent = `Resource Type: ${types}`;
+typeInfo.classList.add(&quot;resource-info&quot;);
+
+const fieldInfo = document.createElement(&quot;p&quot;);
+fieldInfo.textContent = `AI Fields: ${fields}`;
+fieldInfo.classList.add(&quot;resource-info&quot;);
+
+resultDiv.appendChild(title);
+resultDiv.appendChild(link);
+resultDiv.appendChild(typeInfo); // Add this line
+resultDiv.appendChild(fieldInfo); // Add this line
+resultsDiv.appendChild(resultDiv);</code></pre><ol type="1" id="15359086-5b59-46a4-8b39-b8d32bf96db0" class="numbered-list" start="1"><li><mark class="highlight-default">Update the </mark><mark class="highlight-default"><code>style.css</code></mark><mark class="highlight-default"> file to style the new elements:</mark></li></ol><pre id="3a950cc7-87eb-42f1-aa22-deeac8110765" class="code"><code>/* Add this new CSS rule */
+.resource-info {
+  font-size: 0.8em;
+  margin: 5px 0;
+}</code></pre><p id="23a7a17e-01c1-4dbf-9abf-6569b36f0ddc" class=""><mark class="highlight-default">With these changes, the resource type and AI fields will be displayed below each URL in a smaller font. The new elements will have a class name of &quot;resource-info&quot;, which you can further customize in the </mark><mark class="highlight-default"><code>style.css</code></mark><mark class="highlight-default"> file if needed.</mark></p><h3 id="37e4dd7a-1554-4086-9455-07e11a29af77" class=""><details open=""><summary>❓ Prompt</summary></details></h3><div class="indented"><p id="b395252c-576d-47c6-aa7d-6d77cd803d71" class="">Thank you. Can you help me with the styling please. I would like only one resource to be displayed in a row. I would also like the &quot;Resource type :&quot; to be displayed in one colour, and the entries to be displayed on another. Similarly for the &quot;AI Field :&quot; and its entries. The border around each resource entry should also have a light shadow and have curved edges.</p></div><h3 id="67f27da9-b89d-440b-b1c8-06c9efbff8f4" class="">💬 Answer</h3><p id="67ffa4db-92ac-4fab-8c45-9a5baf6e6cad" class=""><mark class="highlight-default">Of course! I&#x27;ll help you style the UI based on your preferences. Update the </mark><mark class="highlight-default"><code>style.css</code></mark><mark class="highlight-default"> file with the following styles:</mark></p><pre id="95c4f902-36b2-48e3-84c3-b5f234036d1f" class="code"><code>/* Add or update these CSS rules */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.result {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 5px; /* Add this line for curved edges */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Add this line for a light shadow */
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 100%;
+}
+
+.resource-info {
+  font-size: 0.8em;
+  margin: 5px 0;
+}
+
+.resource-info .label {
+  color: #5a5a5a;
+}
+
+.resource-info .entries {
+  color: #007bff;
+}</code></pre><p id="f02670d5-4f21-4e3b-8228-fa249bc261de" class=""><mark class="highlight-default">Then, update the </mark><mark class="highlight-default"><code>displayResources</code></mark><mark class="highlight-default"> function in your </mark><mark class="highlight-default"><code>script.js</code></mark><mark class="highlight-default"> file to apply the new styles to the &quot;Resource Type:&quot; and &quot;AI Field:&quot; labels, and their respective entries:</mark></p><pre id="fefaadc5-6945-46a2-97aa-4caa004d37e6" class="code"><code>` // Existing code inside the displayResources function
+const types = resource.type.map(typeId =&gt; resourceTypes.find(rt =&gt; rt.id === typeId).name).join(&quot;, &quot;);
+const fields = resource.field.map(fieldId =&gt; aiFields.find(af =&gt; af.id === fieldId).name).join(&quot;, &quot;);
+
+const typeInfo = document.createElement(&quot;p&quot;);
+typeInfo.classList.add(&quot;resource-info&quot;);
+
+const typeLabel = document.createElement(&quot;span&quot;);
+typeLabel.textContent = &quot;Resource Type:&quot;;
+typeLabel.classList.add(&quot;label&quot;);
+
+const typeEntries = document.createElement(&quot;span&quot;);
+typeEntries.textContent = ` ${types}`;
+typeEntries.classList.add(&quot;entries&quot;);
+
+const fieldInfo = document.createElement(&quot;p&quot;);
+fieldInfo.classList.add(&quot;resource-info&quot;);
+
+const fieldLabel = document.createElement(&quot;span&quot;);
+fieldLabel.textContent = &quot;AI Fields:&quot;;
+fieldLabel.classList.add(&quot;label&quot;);
+
+const fieldEntries = document.createElement(&quot;span&quot;);
+fieldEntries.textContent = ` ${fields}`;
+fieldEntries.classList.add(&quot;entries&quot;);
+
+typeInfo.appendChild(typeLabel);
+typeInfo.appendChild(typeEntries);
+fieldInfo.appendChild(fieldLabel);
+fieldInfo.appendChild(fieldEntries);
+
+resultDiv.appendChild(title);
+resultDiv.appendChild(link);
+resultDiv.appendChild(typeInfo);
+resultDiv.appendChild(fieldInfo);
+resultsDiv.appendChild(resultDiv);</code></pre><p id="8056fc45-72c0-47c2-a452-610dd1a97dc5" class=""><mark class="highlight-default">With these changes, only one resource will be displayed in a row. The &quot;Resource Type:&quot; and &quot;AI Field:&quot; labels will be displayed in one color, while their respective entries will be displayed in another color. Each resource entry will also have a light shadow and curved edges.</mark></p><p id="6ed4f627-83ab-4ff4-9d64-e634806d9268" class=""><mark class="highlight-default">You can customize the colors and other styles in the </mark><mark class="highlight-default"><code>style.css</code></mark><mark class="highlight-default"> file as needed.</mark></p><h3 id="a4611e1f-d44f-480a-957a-217b126b426b" class=""><details open=""><summary></summary></details></h3></div></article></body></html>
